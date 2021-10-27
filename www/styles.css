@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-html, button {
+html {
   font-family: "Minecraftia";
 }
 
@@ -54,6 +54,7 @@ body {
 }
 
 .mc-button {
+  font-family: inherit;
   height: var(--btn-size);
   width: calc(var(--btn-size) * 5);
   cursor: pointer;
