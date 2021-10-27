@@ -1,0 +1,18 @@
+{
+  "name": "mcbr-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server:ws": "node ./ws/index.js",
+    "server:ws-dev": "nodemon ./ws/index.js",
+    "server:http": "http-server ./www/ -p 8081 -d false -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.0.0",
+    "nodemon": "^2.0.2",
+    "ws": "^8.2.3"
+  }
+}
